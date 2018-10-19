@@ -1,4 +1,4 @@
-package com.eurogarages;
+package com.eg;
 
 import android.content.Intent;
 import android.os.Bundle;

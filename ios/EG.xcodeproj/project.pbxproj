@@ -13,7 +13,7 @@
 		00C302E81ABCBA2D00DB3ED1 /* libRCTImage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302C01ABCB91800DB3ED1 /* libRCTImage.a */; };
 		00C302E91ABCBA2D00DB3ED1 /* libRCTNetwork.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302DC1ABCB9D200DB3ED1 /* libRCTNetwork.a */; };
 		00C302EA1ABCBA2D00DB3ED1 /* libRCTVibration.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 00C302E41ABCB9EE00DB3ED1 /* libRCTVibration.a */; };
-		00E356F31AD99517003FC87E /* EuroGaragesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* EuroGaragesTests.m */; };
+		00E356F31AD99517003FC87E /* EGTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* EGTests.m */; };
 		0ADB90AAFDA543FE872DC6B9 /* libRNVectorIcons.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D41B098EEF89401E99FED2FD /* libRNVectorIcons.a */; };
 		0B5CA0F3D2384B63A91B8190 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0FFEF982AB0D44B9A99E8094 /* EvilIcons.ttf */; };
 		11D1A2F320CAFA9E000508D9 /* libRCTAnimation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */; };
@@ -39,7 +39,7 @@
 		2D02E4C71E0B4AEC006451C7 /* libRCTText-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3E941DF850E9000B6D8A /* libRCTText-tvOS.a */; };
 		2D02E4C81E0B4AEC006451C7 /* libRCTWebSocket-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3E991DF850E9000B6D8A /* libRCTWebSocket-tvOS.a */; };
 		2D16E6881FA4F8E400B85C8A /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2D16E6891FA4F8E400B85C8A /* libReact.a */; };
-		2DCD954D1E0B4F2C00145EB5 /* EuroGaragesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* EuroGaragesTests.m */; };
+		2DCD954D1E0B4F2C00145EB5 /* EGTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 00E356F21AD99517003FC87E /* EGTests.m */; };
 		2DF0FFEE2056DD460020B375 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD3EA31DF850E9000B6D8A /* libReact.a */; };
 		409D0B5169C0440CA3473C7F /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EEBE5046F30442E892E86B28 /* Octicons.ttf */; };
 		59F5024CF55E4BC5AA1653D9 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 5030214FEBE847888F8F9DD0 /* FontAwesome.ttf */; };
@@ -51,12 +51,12 @@
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		ABAACF610BAB44EAA4592903 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1BFE79DF642E4AA1A7DBC9F3 /* FontAwesome5_Brands.ttf */; };
 		ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBDB9271DFEBF0700ED6528 /* libRCTBlob.a */; };
-		C581D26E744F6762679156AE /* libPods-EuroGarages-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29BC918AFAF2F519FC7E256D /* libPods-EuroGarages-tvOSTests.a */; };
+		C581D26E744F6762679156AE /* libPods-EG-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29BC918AFAF2F519FC7E256D /* libPods-EG-tvOSTests.a */; };
 		C5F7C2EB05374246B571431D /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 013259DB7A5D45349AF65484 /* MaterialIcons.ttf */; };
 		DB2DCDCD2D924B159C1AB026 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D6FE4DDA5965483EB9490EC1 /* SimpleLineIcons.ttf */; };
-		E693E61EA211E1212A00A189 /* libPods-EuroGarages-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4A0433B2E1B3BCACAB7F1CD /* libPods-EuroGarages-tvOS.a */; };
+		E693E61EA211E1212A00A189 /* libPods-EG-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E4A0433B2E1B3BCACAB7F1CD /* libPods-EG-tvOS.a */; };
 		E7FF8E041611413B94816F11 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F1E07579F5F54B4EB7C3BDF0 /* FontAwesome5_Regular.ttf */; };
-		EA8ED4A23E6DB8083B3366C3 /* libPods-EuroGarages.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93351B2E205ABB7231B9A61B /* libPods-EuroGarages.a */; };
+		EA8ED4A23E6DB8083B3366C3 /* libPods-EG.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93351B2E205ABB7231B9A61B /* libPods-EG.a */; };
 		F7331F22216C8738002D8D36 /* HockeySDKResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F7331F20216C8738002D8D36 /* HockeySDKResources.bundle */; };
 		F7331F23216C8738002D8D36 /* HockeySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F7331F21216C8738002D8D36 /* HockeySDK.framework */; };
 		F7331F2D216C8935002D8D36 /* libRCTPushNotification.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F7331F2A216C8922002D8D36 /* libRCTPushNotification.a */; };
@@ -105,7 +105,7 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
-			remoteInfo = EuroGarages;
+			remoteInfo = EG;
 		};
 		139105C01AF99BAD00B5F7CC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -133,7 +133,7 @@
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 2D02E47A1E0B4A5D006451C7;
-			remoteInfo = "EuroGarages-tvOS";
+			remoteInfo = "EG-tvOS";
 		};
 		2D16E6711FA4F8DC00B85C8A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -389,26 +389,26 @@
 		00C302BB1ABCB91800DB3ED1 /* RCTImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTImage.xcodeproj; path = "../node_modules/react-native/Libraries/Image/RCTImage.xcodeproj"; sourceTree = "<group>"; };
 		00C302D31ABCB9D200DB3ED1 /* RCTNetwork.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTNetwork.xcodeproj; path = "../node_modules/react-native/Libraries/Network/RCTNetwork.xcodeproj"; sourceTree = "<group>"; };
 		00C302DF1ABCB9EE00DB3ED1 /* RCTVibration.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTVibration.xcodeproj; path = "../node_modules/react-native/Libraries/Vibration/RCTVibration.xcodeproj"; sourceTree = "<group>"; };
-		00E356EE1AD99517003FC87E /* EuroGaragesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EuroGaragesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		00E356EE1AD99517003FC87E /* EGTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EGTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		00E356F11AD99517003FC87E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		00E356F21AD99517003FC87E /* EuroGaragesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EuroGaragesTests.m; sourceTree = "<group>"; };
+		00E356F21AD99517003FC87E /* EGTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EGTests.m; sourceTree = "<group>"; };
 		013259DB7A5D45349AF65484 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
 		0FFEF982AB0D44B9A99E8094 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
 		139105B61AF99BAD00B5F7CC /* RCTSettings.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTSettings.xcodeproj; path = "../node_modules/react-native/Libraries/Settings/RCTSettings.xcodeproj"; sourceTree = "<group>"; };
 		139FDEE61B06529A00C62182 /* RCTWebSocket.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTWebSocket.xcodeproj; path = "../node_modules/react-native/Libraries/WebSocket/RCTWebSocket.xcodeproj"; sourceTree = "<group>"; };
 		13B07F961A680F5B00A75B9A /* EG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EG.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = EuroGarages/AppDelegate.h; sourceTree = "<group>"; };
-		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = EuroGarages/AppDelegate.m; sourceTree = "<group>"; };
+		13B07FAF1A68108700A75B9A /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = EG/AppDelegate.h; sourceTree = "<group>"; };
+		13B07FB01A68108700A75B9A /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = EG/AppDelegate.m; sourceTree = "<group>"; };
 		13B07FB21A68108700A75B9A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = EuroGarages/Images.xcassets; sourceTree = "<group>"; };
-		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = EuroGarages/Info.plist; sourceTree = "<group>"; };
-		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = EuroGarages/main.m; sourceTree = "<group>"; };
+		13B07FB51A68108700A75B9A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = EG/Images.xcassets; sourceTree = "<group>"; };
+		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = EG/Info.plist; sourceTree = "<group>"; };
+		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = EG/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "../node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
 		1BFE79DF642E4AA1A7DBC9F3 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
-		29067221D95D80514AB01ABA /* Pods-EuroGarages.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EuroGarages.release.xcconfig"; path = "Pods/Target Support Files/Pods-EuroGarages/Pods-EuroGarages.release.xcconfig"; sourceTree = "<group>"; };
-		29BC918AFAF2F519FC7E256D /* libPods-EuroGarages-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EuroGarages-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E47B1E0B4A5D006451C7 /* EuroGarages-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EuroGarages-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2D02E4901E0B4A5D006451C7 /* EuroGarages-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EuroGarages-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		29067221D95D80514AB01ABA /* Pods-EG.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EG.release.xcconfig"; path = "Pods/Target Support Files/Pods-EG/Pods-EG.release.xcconfig"; sourceTree = "<group>"; };
+		29BC918AFAF2F519FC7E256D /* libPods-EG-tvOSTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EG-tvOSTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E47B1E0B4A5D006451C7 /* EG-tvOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EG-tvOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D02E4901E0B4A5D006451C7 /* EG-tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EG-tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D16E6891FA4F8E400B85C8A /* libReact.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = libReact.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E6AE662C29242C1B4ACD179 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
 		38318B9511AC40ED9BD7FB8D /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
@@ -417,30 +417,30 @@
 		6C46FCEFDBED47039266A616 /* RNVectorIcons.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNVectorIcons.xcodeproj; path = "../node_modules/react-native-vector-icons/RNVectorIcons.xcodeproj"; sourceTree = "<group>"; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "../node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "../node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
-		93351B2E205ABB7231B9A61B /* libPods-EuroGarages.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EuroGarages.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		93351B2E205ABB7231B9A61B /* libPods-EG.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EG.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		95244F332491416482D479BA /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
 		957C658F7CEE47B2886C0D79 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
 		99EBB19C6D794C75BA6D0C26 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
 		ADBDB91F1DFEBF0600ED6528 /* RCTBlob.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTBlob.xcodeproj; path = "../node_modules/react-native/Libraries/Blob/RCTBlob.xcodeproj"; sourceTree = "<group>"; };
 		B7EC7446FBFB4F098FABA596 /* RNCardIO.xcodeproj */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "wrapper.pb-project"; name = RNCardIO.xcodeproj; path = "../node_modules/react-native-awesome-card-io/ios/RNCardIO.xcodeproj"; sourceTree = "<group>"; };
-		CCF4ECB1597CF6E61E7BA1DF /* Pods-EuroGarages-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EuroGarages-tvOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EuroGarages-tvOSTests/Pods-EuroGarages-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
-		D3C12613CF94CC22CD27F511 /* Pods-EuroGarages-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EuroGarages-tvOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EuroGarages-tvOSTests/Pods-EuroGarages-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CCF4ECB1597CF6E61E7BA1DF /* Pods-EG-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EG-tvOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EG-tvOSTests/Pods-EG-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		D3C12613CF94CC22CD27F511 /* Pods-EG-tvOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EG-tvOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EG-tvOSTests/Pods-EG-tvOSTests.debug.xcconfig"; sourceTree = "<group>"; };
 		D41B098EEF89401E99FED2FD /* libRNVectorIcons.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNVectorIcons.a; sourceTree = "<group>"; };
 		D6FE4DDA5965483EB9490EC1 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
-		E4A0433B2E1B3BCACAB7F1CD /* libPods-EuroGarages-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EuroGarages-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E52C446475C094DBE5184375 /* Pods-EuroGarages.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EuroGarages.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EuroGarages/Pods-EuroGarages.debug.xcconfig"; sourceTree = "<group>"; };
+		E4A0433B2E1B3BCACAB7F1CD /* libPods-EG-tvOS.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EG-tvOS.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E52C446475C094DBE5184375 /* Pods-EG.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EG.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EG/Pods-EG.debug.xcconfig"; sourceTree = "<group>"; };
 		ECCC89D8B8114D87814149CD /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
 		EEBE5046F30442E892E86B28 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
 		F1E07579F5F54B4EB7C3BDF0 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
-		F42DAEFDD7A2BE63931537FD /* Pods-EuroGarages-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EuroGarages-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-EuroGarages-tvOS/Pods-EuroGarages-tvOS.release.xcconfig"; sourceTree = "<group>"; };
+		F42DAEFDD7A2BE63931537FD /* Pods-EG-tvOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EG-tvOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-EG-tvOS/Pods-EG-tvOS.release.xcconfig"; sourceTree = "<group>"; };
 		F7331F20216C8738002D8D36 /* HockeySDKResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = HockeySDKResources.bundle; sourceTree = "<group>"; };
 		F7331F21216C8738002D8D36 /* HockeySDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = HockeySDK.framework; sourceTree = "<group>"; };
 		F7331F24216C890C002D8D36 /* RCTPushNotification.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTPushNotification.xcodeproj; path = "../node_modules/react-native/Libraries/PushNotificationIOS/RCTPushNotification.xcodeproj"; sourceTree = "<group>"; };
-		F7331F2E216C8B65002D8D36 /* EuroGarages.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = EuroGarages.entitlements; path = EuroGarages/EuroGarages.entitlements; sourceTree = "<group>"; };
+		F7331F2E216C8B65002D8D36 /* EG.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = EG.entitlements; path = EG/EG.entitlements; sourceTree = "<group>"; };
 		F735C418DC50486F942114B2 /* libRNCardIO.a */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = archive.ar; path = libRNCardIO.a; sourceTree = "<group>"; };
 		F7ED5F7321762FE20098C344 /* RNImagePicker.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNImagePicker.xcodeproj; path = "../node_modules/react-native-image-picker/ios/RNImagePicker.xcodeproj"; sourceTree = "<group>"; };
 		F7F4AF9B217133EC00C8E205 /* RNFIRMessaging.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNFIRMessaging.xcodeproj; path = "../node_modules/react-native-fcm/ios/RNFIRMessaging.xcodeproj"; sourceTree = "<group>"; };
-		F7FF3EE34000C40136B6EA78 /* Pods-EuroGarages-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EuroGarages-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EuroGarages-tvOS/Pods-EuroGarages-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
+		F7FF3EE34000C40136B6EA78 /* Pods-EG-tvOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EG-tvOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EG-tvOS/Pods-EG-tvOS.debug.xcconfig"; sourceTree = "<group>"; };
 		FEB403A1DB064C8EADB273D1 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -475,7 +475,7 @@
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
 				0ADB90AAFDA543FE872DC6B9 /* libRNVectorIcons.a in Frameworks */,
 				18D9BDE1F3BE4F5ABAA6F11A /* libRNCardIO.a in Frameworks */,
-				EA8ED4A23E6DB8083B3366C3 /* libPods-EuroGarages.a in Frameworks */,
+				EA8ED4A23E6DB8083B3366C3 /* libPods-EG.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,7 +491,7 @@
 				2D02E4C61E0B4AEC006451C7 /* libRCTSettings-tvOS.a in Frameworks */,
 				2D02E4C71E0B4AEC006451C7 /* libRCTText-tvOS.a in Frameworks */,
 				2D02E4C81E0B4AEC006451C7 /* libRCTWebSocket-tvOS.a in Frameworks */,
-				E693E61EA211E1212A00A189 /* libPods-EuroGarages-tvOS.a in Frameworks */,
+				E693E61EA211E1212A00A189 /* libPods-EG-tvOS.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -500,7 +500,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2DF0FFEE2056DD460020B375 /* libReact.a in Frameworks */,
-				C581D26E744F6762679156AE /* libPods-EuroGarages-tvOSTests.a in Frameworks */,
+				C581D26E744F6762679156AE /* libPods-EG-tvOSTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -549,13 +549,13 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		00E356EF1AD99517003FC87E /* EuroGaragesTests */ = {
+		00E356EF1AD99517003FC87E /* EGTests */ = {
 			isa = PBXGroup;
 			children = (
-				00E356F21AD99517003FC87E /* EuroGaragesTests.m */,
+				00E356F21AD99517003FC87E /* EGTests.m */,
 				00E356F01AD99517003FC87E /* Supporting Files */,
 			);
-			path = EuroGaragesTests;
+			path = EGTests;
 			sourceTree = "<group>";
 		};
 		00E356F01AD99517003FC87E /* Supporting Files */ = {
@@ -586,10 +586,10 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		13B07FAE1A68108700A75B9A /* EuroGarages */ = {
+		13B07FAE1A68108700A75B9A /* EG */ = {
 			isa = PBXGroup;
 			children = (
-				F7331F2E216C8B65002D8D36 /* EuroGarages.entitlements */,
+				F7331F2E216C8B65002D8D36 /* EG.entitlements */,
 				008F07F21AC5B25A0029DE68 /* main.jsbundle */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
@@ -598,7 +598,7 @@
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				13B07FB71A68108700A75B9A /* main.m */,
 			);
-			name = EuroGarages;
+			name = EG;
 			sourceTree = "<group>";
 		};
 		146834001AC3E56700842450 /* Products */ = {
@@ -629,9 +629,9 @@
 			children = (
 				F7331F1F216C8738002D8D36 /* HockeySDK.embeddedframework */,
 				2D16E6891FA4F8E400B85C8A /* libReact.a */,
-				93351B2E205ABB7231B9A61B /* libPods-EuroGarages.a */,
-				E4A0433B2E1B3BCACAB7F1CD /* libPods-EuroGarages-tvOS.a */,
-				29BC918AFAF2F519FC7E256D /* libPods-EuroGarages-tvOSTests.a */,
+				93351B2E205ABB7231B9A61B /* libPods-EG.a */,
+				E4A0433B2E1B3BCACAB7F1CD /* libPods-EG-tvOS.a */,
+				29BC918AFAF2F519FC7E256D /* libPods-EG-tvOSTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -690,9 +690,9 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
-				13B07FAE1A68108700A75B9A /* EuroGarages */,
+				13B07FAE1A68108700A75B9A /* EG */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
-				00E356EF1AD99517003FC87E /* EuroGaragesTests */,
+				00E356EF1AD99517003FC87E /* EGTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				ECB97A3997F5416E9E4E2530 /* Resources */,
@@ -708,9 +708,9 @@
 			isa = PBXGroup;
 			children = (
 				13B07F961A680F5B00A75B9A /* EG.app */,
-				00E356EE1AD99517003FC87E /* EuroGaragesTests.xctest */,
-				2D02E47B1E0B4A5D006451C7 /* EuroGarages-tvOS.app */,
-				2D02E4901E0B4A5D006451C7 /* EuroGarages-tvOSTests.xctest */,
+				00E356EE1AD99517003FC87E /* EGTests.xctest */,
+				2D02E47B1E0B4A5D006451C7 /* EG-tvOS.app */,
+				2D02E4901E0B4A5D006451C7 /* EG-tvOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -808,12 +808,12 @@
 		FB1BDA6B7C85E9E3E92363F1 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				E52C446475C094DBE5184375 /* Pods-EuroGarages.debug.xcconfig */,
-				29067221D95D80514AB01ABA /* Pods-EuroGarages.release.xcconfig */,
-				F7FF3EE34000C40136B6EA78 /* Pods-EuroGarages-tvOS.debug.xcconfig */,
-				F42DAEFDD7A2BE63931537FD /* Pods-EuroGarages-tvOS.release.xcconfig */,
-				D3C12613CF94CC22CD27F511 /* Pods-EuroGarages-tvOSTests.debug.xcconfig */,
-				CCF4ECB1597CF6E61E7BA1DF /* Pods-EuroGarages-tvOSTests.release.xcconfig */,
+				E52C446475C094DBE5184375 /* Pods-EG.debug.xcconfig */,
+				29067221D95D80514AB01ABA /* Pods-EG.release.xcconfig */,
+				F7FF3EE34000C40136B6EA78 /* Pods-EG-tvOS.debug.xcconfig */,
+				F42DAEFDD7A2BE63931537FD /* Pods-EG-tvOS.release.xcconfig */,
+				D3C12613CF94CC22CD27F511 /* Pods-EG-tvOSTests.debug.xcconfig */,
+				CCF4ECB1597CF6E61E7BA1DF /* Pods-EG-tvOSTests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -821,9 +821,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		00E356ED1AD99517003FC87E /* EuroGaragesTests */ = {
+		00E356ED1AD99517003FC87E /* EGTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "EuroGaragesTests" */;
+			buildConfigurationList = 00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "EGTests" */;
 			buildPhases = (
 				00E356EA1AD99517003FC87E /* Sources */,
 				00E356EB1AD99517003FC87E /* Frameworks */,
@@ -834,14 +834,14 @@
 			dependencies = (
 				00E356F51AD99517003FC87E /* PBXTargetDependency */,
 			);
-			name = EuroGaragesTests;
-			productName = EuroGaragesTests;
-			productReference = 00E356EE1AD99517003FC87E /* EuroGaragesTests.xctest */;
+			name = EGTests;
+			productName = EGTests;
+			productReference = 00E356EE1AD99517003FC87E /* EGTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		13B07F861A680F5B00A75B9A /* EuroGarages */ = {
+		13B07F861A680F5B00A75B9A /* EG */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "EuroGarages" */;
+			buildConfigurationList = 13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "EG" */;
 			buildPhases = (
 				F85EFC864347DB5D89275615 /* [CP] Check Pods Manifest.lock */,
 				13B07F871A680F5B00A75B9A /* Sources */,
@@ -855,14 +855,14 @@
 			);
 			dependencies = (
 			);
-			name = EuroGarages;
+			name = EG;
 			productName = "Hello World";
 			productReference = 13B07F961A680F5B00A75B9A /* EG.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E47A1E0B4A5D006451C7 /* EuroGarages-tvOS */ = {
+		2D02E47A1E0B4A5D006451C7 /* EG-tvOS */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "EuroGarages-tvOS" */;
+			buildConfigurationList = 2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "EG-tvOS" */;
 			buildPhases = (
 				C4353BC3C5AB782A6AD72DF1 /* [CP] Check Pods Manifest.lock */,
 				2D02E4771E0B4A5D006451C7 /* Sources */,
@@ -874,14 +874,14 @@
 			);
 			dependencies = (
 			);
-			name = "EuroGarages-tvOS";
-			productName = "EuroGarages-tvOS";
-			productReference = 2D02E47B1E0B4A5D006451C7 /* EuroGarages-tvOS.app */;
+			name = "EG-tvOS";
+			productName = "EG-tvOS";
+			productReference = 2D02E47B1E0B4A5D006451C7 /* EG-tvOS.app */;
 			productType = "com.apple.product-type.application";
 		};
-		2D02E48F1E0B4A5D006451C7 /* EuroGarages-tvOSTests */ = {
+		2D02E48F1E0B4A5D006451C7 /* EG-tvOSTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "EuroGarages-tvOSTests" */;
+			buildConfigurationList = 2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "EG-tvOSTests" */;
 			buildPhases = (
 				31DF4588ABF707CD46524558 /* [CP] Check Pods Manifest.lock */,
 				2D02E48C1E0B4A5D006451C7 /* Sources */,
@@ -893,9 +893,9 @@
 			dependencies = (
 				2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */,
 			);
-			name = "EuroGarages-tvOSTests";
-			productName = "EuroGarages-tvOSTests";
-			productReference = 2D02E4901E0B4A5D006451C7 /* EuroGarages-tvOSTests.xctest */;
+			name = "EG-tvOSTests";
+			productName = "EG-tvOSTests";
+			productReference = 2D02E4901E0B4A5D006451C7 /* EG-tvOSTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -935,7 +935,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "EuroGarages" */;
+			buildConfigurationList = 83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "EG" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -1018,10 +1018,10 @@
 			);
 			projectRoot = "";
 			targets = (
-				13B07F861A680F5B00A75B9A /* EuroGarages */,
-				00E356ED1AD99517003FC87E /* EuroGaragesTests */,
-				2D02E47A1E0B4A5D006451C7 /* EuroGarages-tvOS */,
-				2D02E48F1E0B4A5D006451C7 /* EuroGarages-tvOSTests */,
+				13B07F861A680F5B00A75B9A /* EG */,
+				00E356ED1AD99517003FC87E /* EGTests */,
+				2D02E47A1E0B4A5D006451C7 /* EG-tvOS */,
+				2D02E48F1E0B4A5D006451C7 /* EG-tvOSTests */,
 			);
 		};
 /* End PBXProject section */
@@ -1419,7 +1419,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-EuroGarages-tvOSTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-EG-tvOSTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1432,7 +1432,7 @@
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-EuroGarages/Pods-EuroGarages-resources.sh",
+				"${SRCROOT}/Pods/Target Support Files/Pods-EG/Pods-EG-resources.sh",
 				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
@@ -1441,7 +1441,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EuroGarages/Pods-EuroGarages-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EG/Pods-EG-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C4353BC3C5AB782A6AD72DF1 /* [CP] Check Pods Manifest.lock */ = {
@@ -1455,7 +1455,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-EuroGarages-tvOS-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-EG-tvOS-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1486,7 +1486,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-EuroGarages-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-EG-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1500,7 +1500,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				00E356F31AD99517003FC87E /* EuroGaragesTests.m in Sources */,
+				00E356F31AD99517003FC87E /* EGTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1526,7 +1526,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DCD954D1E0B4F2C00145EB5 /* EuroGaragesTests.m in Sources */,
+				2DCD954D1E0B4F2C00145EB5 /* EGTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1535,12 +1535,12 @@
 /* Begin PBXTargetDependency section */
 		00E356F51AD99517003FC87E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 13B07F861A680F5B00A75B9A /* EuroGarages */;
+			target = 13B07F861A680F5B00A75B9A /* EG */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
 		};
 		2D02E4921E0B4A5D006451C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 2D02E47A1E0B4A5D006451C7 /* EuroGarages-tvOS */;
+			target = 2D02E47A1E0B4A5D006451C7 /* EG-tvOS */;
 			targetProxy = 2D02E4911E0B4A5D006451C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -1552,7 +1552,7 @@
 				13B07FB21A68108700A75B9A /* Base */,
 			);
 			name = LaunchScreen.xib;
-			path = EuroGarages;
+			path = EG;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -1573,7 +1573,7 @@
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
 					"$(SRCROOT)/../node_modules/react-native-awesome-card-io/ios/**",
 				);
-				INFOPLIST_FILE = EuroGaragesTests/Info.plist;
+				INFOPLIST_FILE = EGTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -1603,7 +1603,7 @@
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
 					"$(SRCROOT)/../node_modules/react-native-awesome-card-io/ios/**",
 				);
-				INFOPLIST_FILE = EuroGaragesTests/Info.plist;
+				INFOPLIST_FILE = EGTests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
@@ -1623,11 +1623,11 @@
 		};
 		13B07F941A680F5B00A75B9A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E52C446475C094DBE5184375 /* Pods-EuroGarages.debug.xcconfig */;
+			baseConfigurationReference = E52C446475C094DBE5184375 /* Pods-EG.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUNDLE_LOADER = "";
-				CODE_SIGN_ENTITLEMENTS = EuroGarages/EuroGarages.entitlements;
+				CODE_SIGN_ENTITLEMENTS = EG/EG.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Mukund Balasubramanian (JJ5TQ44E7M)";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1644,7 +1644,7 @@
 					"$(PROJECT_DIR)/Frameworks",
 					"$(SRCROOT)/../node_modules/react-native-fcm/ios",
 				);
-				INFOPLIST_FILE = EuroGarages/Info.plist;
+				INFOPLIST_FILE = EG/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -1654,18 +1654,18 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.photon.egpocdev;
 				PRODUCT_NAME = EG;
 				PROVISIONING_PROFILE = "21ea149a-81ba-438a-9d0d-2c27cb7a531c";
-				PROVISIONING_PROFILE_SPECIFIER = EuroGaragesPOCDevelopment_V1;
+				PROVISIONING_PROFILE_SPECIFIER = EGPOCDevelopment_V1;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Debug;
 		};
 		13B07F951A680F5B00A75B9A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 29067221D95D80514AB01ABA /* Pods-EuroGarages.release.xcconfig */;
+			baseConfigurationReference = 29067221D95D80514AB01ABA /* Pods-EG.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				BUNDLE_LOADER = "";
-				CODE_SIGN_ENTITLEMENTS = EuroGarages/EuroGarages.entitlements;
+				CODE_SIGN_ENTITLEMENTS = EG/EG.entitlements;
 				CODE_SIGN_IDENTITY = "iPhone Developer: Mukund Balasubramanian (JJ5TQ44E7M)";
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
@@ -1681,7 +1681,7 @@
 					"$(PROJECT_DIR)/Frameworks",
 					"$(SRCROOT)/../node_modules/react-native-fcm/ios",
 				);
-				INFOPLIST_FILE = EuroGarages/Info.plist;
+				INFOPLIST_FILE = EG/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -1691,14 +1691,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.photon.egpocdev;
 				PRODUCT_NAME = EG;
 				PROVISIONING_PROFILE = "21ea149a-81ba-438a-9d0d-2c27cb7a531c";
-				PROVISIONING_PROFILE_SPECIFIER = EuroGaragesPOCDevelopment_V1;
+				PROVISIONING_PROFILE_SPECIFIER = EGPOCDevelopment_V1;
 				VERSIONING_SYSTEM = "apple-generic";
 			};
 			name = Release;
 		};
 		2D02E4971E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7FF3EE34000C40136B6EA78 /* Pods-EuroGarages-tvOS.debug.xcconfig */;
+			baseConfigurationReference = F7FF3EE34000C40136B6EA78 /* Pods-EG-tvOS.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1714,7 +1714,7 @@
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
 					"$(SRCROOT)/../node_modules/react-native-awesome-card-io/ios/**",
 				);
-				INFOPLIST_FILE = "EuroGarages-tvOS/Info.plist";
+				INFOPLIST_FILE = "EG-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1725,7 +1725,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.EuroGarages-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.EG-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -1735,7 +1735,7 @@
 		};
 		2D02E4981E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F42DAEFDD7A2BE63931537FD /* Pods-EuroGarages-tvOS.release.xcconfig */;
+			baseConfigurationReference = F42DAEFDD7A2BE63931537FD /* Pods-EG-tvOS.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -1751,7 +1751,7 @@
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
 					"$(SRCROOT)/../node_modules/react-native-awesome-card-io/ios/**",
 				);
-				INFOPLIST_FILE = "EuroGarages-tvOS/Info.plist";
+				INFOPLIST_FILE = "EG-tvOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1762,7 +1762,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.EuroGarages-tvOS";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.EG-tvOS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
 				TARGETED_DEVICE_FAMILY = 3;
@@ -1772,7 +1772,7 @@
 		};
 		2D02E4991E0B4A5E006451C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D3C12613CF94CC22CD27F511 /* Pods-EuroGarages-tvOSTests.debug.xcconfig */;
+			baseConfigurationReference = D3C12613CF94CC22CD27F511 /* Pods-EG-tvOSTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1787,7 +1787,7 @@
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
 					"$(SRCROOT)/../node_modules/react-native-awesome-card-io/ios/**",
 				);
-				INFOPLIST_FILE = "EuroGarages-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "EG-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1798,17 +1798,17 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.EuroGarages-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.EG-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EuroGarages-tvOS.app/EuroGarages-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EG-tvOS.app/EG-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Debug;
 		};
 		2D02E49A1E0B4A5E006451C7 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CCF4ECB1597CF6E61E7BA1DF /* Pods-EuroGarages-tvOSTests.release.xcconfig */;
+			baseConfigurationReference = CCF4ECB1597CF6E61E7BA1DF /* Pods-EG-tvOSTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CLANG_ANALYZER_NONNULL = YES;
@@ -1823,7 +1823,7 @@
 					"$(SRCROOT)/../node_modules/react-native-vector-icons/RNVectorIconsManager",
 					"$(SRCROOT)/../node_modules/react-native-awesome-card-io/ios/**",
 				);
-				INFOPLIST_FILE = "EuroGarages-tvOSTests/Info.plist";
+				INFOPLIST_FILE = "EG-tvOSTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -1834,10 +1834,10 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.EuroGarages-tvOSTests";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.facebook.REACT.EG-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EuroGarages-tvOS.app/EuroGarages-tvOS";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EG-tvOS.app/EG-tvOS";
 				TVOS_DEPLOYMENT_TARGET = 10.1;
 			};
 			name = Release;
@@ -1948,7 +1948,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "EuroGaragesTests" */ = {
+		00E357021AD99517003FC87E /* Build configuration list for PBXNativeTarget "EGTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				00E356F61AD99517003FC87E /* Debug */,
@@ -1957,7 +1957,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "EuroGarages" */ = {
+		13B07F931A680F5B00A75B9A /* Build configuration list for PBXNativeTarget "EG" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
@@ -1966,7 +1966,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "EuroGarages-tvOS" */ = {
+		2D02E4BA1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "EG-tvOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4971E0B4A5E006451C7 /* Debug */,
@@ -1975,7 +1975,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "EuroGarages-tvOSTests" */ = {
+		2D02E4BB1E0B4A5E006451C7 /* Build configuration list for PBXNativeTarget "EG-tvOSTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2D02E4991E0B4A5E006451C7 /* Debug */,
@@ -1984,7 +1984,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "EuroGarages" */ = {
+		83CBB9FA1A601CBA00E9B192 /* Build configuration list for PBXProject "EG" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				83CBBA201A601CBA00E9B192 /* Debug */,

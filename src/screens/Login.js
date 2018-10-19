@@ -54,6 +54,7 @@ class Login extends Component {
           alert('Error fetching data: ' + error.toString());
         } else {
           console.log(result)
+          redirectTo("app");
           this.setState({name: result.name, pic:result.picture.data.url});
         }
     }
@@ -71,7 +72,8 @@ class Login extends Component {
     }
 
     onSubmit = values => {
-        this.props.handleLoginUser(values);
+        //this.props.handleLoginUser(values);
+        redirectTo("app")
     }
 
     renderTextInput = (field) => {
@@ -111,18 +113,17 @@ class Login extends Component {
                 AccessToken.getCurrentAccessToken().then(
                     (data) => {
                         const accessToken = data.accessToken
+                        redirectTo("app");
                         this.infoRequestNew(accessToken);
                     }
-                    )
+                );
               }
             },
             function (error) {
+              redirectTo("app");
               console.log('Login fail with error: ' + error)
             }
-          )
-
-
-
+          );
     }
 
     //Checking the condition For Android & iOS to Display Different Pickers as per Wireframe

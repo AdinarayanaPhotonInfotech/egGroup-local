@@ -1,11 +1,11 @@
 # Uncomment the next line to define a global platform for your project
 # platform :ios, '9.0'
 
-target 'EuroGarages' do
+target 'EG' do
   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
   # use_frameworks!
 
-  # Pods for EuroGarages
+  # Pods for EG
   rn_path = '../node_modules/react-native'
   rn_maps_path = '../node_modules/react-native-maps'
 
@@ -62,7 +62,7 @@ post_install do |installer|
     end
   end
 
-  target 'EuroGarages-tvOSTests' do
+  target 'EG-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
     pod 'react-native-splash-screen', :path => '../node_modules/react-native-splash-screen'
@@ -77,20 +77,20 @@ post_install do |installer|
 
   end
 
-  target 'EuroGaragesTests' do
+  target 'EGTests' do
     inherit! :search_paths
     # Pods for testing
   end
 
 end
 
-target 'EuroGarages-tvOS' do
+target 'EG-tvOS' do
   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
   # use_frameworks!
 
-  # Pods for EuroGarages-tvOS
+  # Pods for EG-tvOS
 
-  target 'EuroGarages-tvOSTests' do
+  target 'EG-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end

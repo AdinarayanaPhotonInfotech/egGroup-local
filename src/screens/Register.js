@@ -87,7 +87,14 @@ class Register extends Component {
      //alert('Thank you for signing up. You will receive an email shortly with a link to confirm your email address');
      values.tncAcceptance = true;
      //delete values.confirmpassword;
-     this.props.handleRegisterUser(values);
+     //this.props.handleRegisterUser(values);
+     Alert.alert(
+         'Registration Successful',
+         '“Thank you for signing up. You will receive an email shortly with a link to confirm your email address.”',
+         [
+           {text: 'OK',  onPress: () => navigateTo("login") }
+         ]
+     )
     }
 
 

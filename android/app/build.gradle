@@ -99,7 +99,7 @@ android {
 
     defaultConfig {
         multiDexEnabled true
-        applicationId "com.eurogarages"
+        applicationId "com.eg"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1

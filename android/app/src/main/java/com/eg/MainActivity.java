@@ -1,4 +1,4 @@
-package com.eurogarages;
+package com.eg;
 
 import com.facebook.react.ReactActivity;
 import org.devio.rn.splashscreen.SplashScreen; // import this
@@ -37,6 +37,6 @@ public class MainActivity extends ReactActivity {
 
     @Override
     protected String getMainComponentName() {
-        return "EuroGarages";
+        return "EG";
     }
 }
